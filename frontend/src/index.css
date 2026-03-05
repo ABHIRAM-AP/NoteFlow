@@ -60,3 +60,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
