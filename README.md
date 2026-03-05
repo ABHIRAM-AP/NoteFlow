@@ -11,10 +11,8 @@ This project demonstrates a basic **full-stack architecture**, API design, datab
 
 * Create new notes
 * View all notes
-* Update existing notes
 * Delete notes
 * Minimal and clean UI
-* Timestamp tracking (`created_at`, `updated_at`)
 * RESTful API design
 
 ---
@@ -40,15 +38,22 @@ This project demonstrates a basic **full-stack architecture**, API design, datab
 # Project Structure
 
 ```
-note-app
+NoteFlow
 │
-├── backend
-│   ├── app.py
-│   ├── database.py
+backend
+│
+├── app
+│   ├── routes
+│   │   └── routes.py
+│   │
+│   ├── db.py
 │   ├── models.py
-│   ├── routes.py
 │   └── requirements.txt
 │
+├── instance
+│   └── notes.db
+│
+└── main.py
 ├── frontend
 │   ├── src
 │   │   ├── api.js
@@ -234,6 +239,7 @@ http://localhost:3000
 Potential improvements include:
 
 * Search notes
+* Update Existing Notes
 * Tagging system
 * Markdown support
 * Dark mode
