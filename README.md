@@ -12,6 +12,7 @@ This project demonstrates a basic **full-stack architecture**, API design, datab
 * Create new notes
 * View all notes
 * Delete notes
+* Update Existing Notes
 * Minimal and clean UI
 * RESTful API design
 
@@ -239,7 +240,6 @@ http://localhost:3000
 Potential improvements include:
 
 * Search notes
-* Update Existing Notes
 * Tagging system
 * Markdown support
 * Dark mode
