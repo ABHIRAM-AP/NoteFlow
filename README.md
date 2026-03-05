@@ -1,4 +1,4 @@
-# Note Taking App (Flask + React)
+# NoteFlow - Note Taking App (Flask + React)
 
 A simple full-stack **Note Taking Application** built with **Flask** (backend) and **React** (frontend).
 The application allows users to **create, view, update, and delete notes** through a REST API and a minimal web interface.
