@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.note-form input,
+.note-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.note-form button {
+    padding: 10px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.notes-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.note-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.note-card button {
+    margin-top: 10px;
+    border: none;
+    background: crimson;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
